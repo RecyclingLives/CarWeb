@@ -251,7 +251,7 @@ class CarWeb
         }
 
         $return = CarWebCacheFile::cacheFileGet($search);
-        if ($return) {
+        if ($return && !($return instanceof CarWebError)) {
             return $return;
         }
 
