@@ -1,11 +1,15 @@
 {
-  "name": "bespoke-support/car-web",
+  "name": "recycling-lives/car-web",
   "description": "Car Web API",
   "license": "MIT",
   "authors": [
     {
       "name": "Richard Seymour",
       "email": "web@bespoke.support"
+    },
+    {
+      "name": "Adam Smith",
+      "email": "adam.smith@recyclinglives.com"
     }
   ],
   "autoload": {
